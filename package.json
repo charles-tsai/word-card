@@ -1,0 +1,26 @@
+{
+  "name": "word-card",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:charles-tsai/word-card.git",
+  "author": "charles <weiche.tsai@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@storybook/addon-actions": "^5.3.8",
+    "@storybook/addon-links": "^5.3.8",
+    "@storybook/addons": "^5.3.8",
+    "@storybook/react": "^5.3.8",
+    "babel-loader": "^8.0.6",
+    "cypress": "^3.8.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
